@@ -1,0 +1,74 @@
+/* logo */
+.logo,
+img {
+  display: block;
+  margin: 32px 0 0 56px;
+  width: 130px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signin {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+/* sign in body */
+#main {
+  margin: 30px 35% 0 35%;
+  font-size: 17px;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 5px 1px lightgray;
+}
+
+/* eamil and password fil */
+.email,
+.password {
+  height: 45px;
+  width: 340px;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1.2px;
+  border-color: #666666;
+  font-size: 20px;
+}
+
+#password {
+  margin: 20px 0 7px 0;
+}
+#email {
+}
+
+::placeholder {
+  color: #666666;
+}
+
+/* forget password and join now link */
+a {
+  text-decoration: none;
+  color: #0a66c2;
+}
+
+/* sign in button  */
+#button {
+  height: 45px;
+  width: 340px;
+  border: 30px 35% 0 35%;
+  border-radius: 30px;
+  border-color: #0a66c2;
+  font-size: medium;
+  font-weight: bolder;
+  color: aliceblue;
+  background-color: #0a66c2;
+  border-style: none;
+  margin: 20px 0 7px 0;
+}
+
+.down {
+  font-weight: lighter;
+  font: size 20px;
+  margin: 50px 40% 0 40%;
+}
